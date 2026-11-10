@@ -129,16 +129,28 @@ export function Header({
 
         {/* Center: Account Controls depending on User Role */}
         <div className="flex items-center gap-2">
-          {/* CAS 1: Non connecté -> Bouton Connexion */}
+          {/* CAS 1: Non connecté -> Bouton Connexion + Bouton Installer */}
           {!currentUser ? (
-            <button
-              onClick={onOpenLogin}
-              type="button"
-              className="flex items-center gap-2 px-3.5 py-1.5 text-xs font-semibold text-white bg-blue-600 hover:bg-blue-500 active:scale-95 rounded-xl transition-all shadow-md shadow-blue-600/20"
-            >
-              <LogIn className="h-3.5 w-3.5" />
-              <span>Connexion (Email & MDP)</span>
-            </button>
+            <div className="flex items-center gap-2">
+              <button
+                onClick={onOpenLogin}
+                type="button"
+                className="flex items-center gap-2 px-3.5 py-1.5 text-xs font-semibold text-white bg-blue-600 hover:bg-blue-500 active:scale-95 rounded-xl transition-all shadow-md shadow-blue-600/20"
+              >
+                <LogIn className="h-3.5 w-3.5" />
+                <span>Connexion (Email & MDP)</span>
+              </button>
+
+              <button
+                onClick={onOpenInstallModal}
+                type="button"
+                className="flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold text-emerald-300 bg-emerald-950/40 hover:bg-emerald-900/60 border border-emerald-800/50 rounded-xl transition-all shadow-sm"
+                title="Installer CatchMail sur Windows / Mac / Mobile ou extension"
+              >
+                <Download className="h-3.5 w-3.5 text-emerald-400" />
+                <span>Installer l&apos;App</span>
+              </button>
+            </div>
           ) : isAdmin ? (
             /* CAS 2: Administrateur -> Tous les privilèges (switcher, gérer, boîte aléatoire) */
             <>
@@ -242,6 +254,16 @@ export function Header({
                       >
                         <Zap className="h-3.5 w-3.5" />
                         <span>⚡ Automatisation (Discord, Epic...)</span>
+                      </button>
+                      <button
+                        onClick={() => {
+                          setIsDropdownOpen(false);
+                          onOpenInstallModal();
+                        }}
+                        className="w-full flex items-center justify-center gap-1.5 py-1.5 text-xs text-emerald-400 hover:text-emerald-300 hover:bg-emerald-950/30 rounded-lg font-medium transition-colors"
+                      >
+                        <Download className="h-3.5 w-3.5" />
+                        <span>📥 Installer l&apos;App / Extension</span>
                       </button>
                       <button
                         onClick={onOpenAccountManager}
@@ -383,10 +405,11 @@ export function Header({
           <button
             onClick={onOpenInstallModal}
             type="button"
-            className="p-1.5 text-xs rounded-lg border bg-zinc-900 border-zinc-800 text-zinc-400 hover:text-emerald-400 hover:bg-zinc-800 transition-all"
+            className="flex items-center gap-1.5 px-2.5 py-1.5 text-xs font-semibold text-emerald-300 bg-emerald-950/40 hover:bg-emerald-900/60 border border-emerald-800/50 rounded-xl transition-all shadow-sm"
             title="Installer CatchMail (Application Windows / Mobile / Extension)"
           >
-            <Download className="h-3.5 w-3.5" />
+            <Download className="h-3.5 w-3.5 text-emerald-400" />
+            <span className="hidden xl:inline">Installer l&apos;App</span>
           </button>
 
           {/* Keyboard Shortcuts Button */}
