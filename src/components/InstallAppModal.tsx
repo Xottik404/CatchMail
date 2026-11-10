@@ -37,6 +37,7 @@ export function InstallAppModal({
   const handlePwaClick = () => {
     if (canInstallNative) {
       onTriggerInstall();
+      onClose();
     } else {
       setInstallClicked(true);
     }
