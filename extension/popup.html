@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>CatchMail Companion</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      width: 320px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #09090b;
+      color: #fafafa;
+      padding: 16px;
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 14px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #27272a;
+    }
+    .logo {
+      width: 28px;
+      height: 28px;
+      background: linear-gradient(135deg, #3b82f6, #6366f1);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-weight: bold;
+      font-size: 14px;
+    }
+    h1 { font-size: 15px; font-weight: 700; }
+    .btn {
+      width: 100%;
+      background: #3b82f6;
+      color: white;
+      border: none;
+      padding: 9px 12px;
+      border-radius: 10px;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      transition: background 0.2s;
+    }
+    .btn:hover { background: #2563eb; }
+    .card {
+      background: #18181b;
+      border: 1px solid #27272a;
+      border-radius: 10px;
+      padding: 10px;
+      margin-top: 12px;
+    }
+    .label {
+      font-size: 10px;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: #a1a1aa;
+      margin-bottom: 4px;
+    }
+    .value {
+      font-family: monospace;
+      font-size: 11px;
+      color: #e4e4e7;
+      word-break: break-all;
+      background: #09090b;
+      padding: 6px 8px;
+      border-radius: 6px;
+      border: 1px solid #27272a;
+      cursor: pointer;
+    }
+    .value:hover { border-color: #3b82f6; }
+    .otp-box {
+      background: rgba(59, 130, 246, 0.15);
+      border: 1px solid rgba(59, 130, 246, 0.4);
+      padding: 8px;
+      border-radius: 8px;
+      text-align: center;
+      margin-top: 8px;
+    }
+    .otp-code {
+      font-family: monospace;
+      font-size: 20px;
+      font-weight: 800;
+      letter-spacing: 2px;
+      color: #60a5fa;
+      cursor: pointer;
+    }
+    .toast {
+      font-size: 11px;
+      color: #34d399;
+      text-align: center;
+      margin-top: 8px;
+      min-height: 16px;
+    }
+    .footer {
+      margin-top: 14px;
+      text-align: center;
+    }
+    .link {
+      color: #a1a1aa;
+      font-size: 11px;
+      text-decoration: none;
+    }
+    .link:hover { color: #3b82f6; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="logo">✉</div>
+    <h1>CatchMail Companion</h1>
+  </div>
+
+  <button id="btnGenerate" class="btn">
+    <span>🎲 Nouvelle Boîte Aléatoire</span>
+  </button>
+
+  <div id="accountBox" class="card" style="display: none;">
+    <div class="label">Adresse Email (cliquer pour copier)</div>
+    <div id="emailValue" class="value" title="Copier l'email"></div>
+
+    <div class="label" style="margin-top: 8px;">Mot de passe</div>
+    <div id="passValue" class="value" title="Copier le mot de passe"></div>
+  </div>
+
+  <div id="latestOtpBox" class="card" style="display: none;">
+    <div class="label">Dernier Code Détecté</div>
+    <div class="otp-box">
+      <div id="otpCode" class="otp-code" title="Cliquer pour copier">------</div>
+      <div id="otpSubject" style="font-size: 10px; color: #a1a1aa; margin-top: 4px;"></div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast"></div>
+
+  <div class="footer">
+    <a href="http://localhost:3000" target="_blank" class="link">Ouvrir le Dashboard CatchMail ↗</a>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
+

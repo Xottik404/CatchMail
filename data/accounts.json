@@ -1,0 +1,186 @@
+[
+  {
+    "id": "admin-root",
+    "name": "Administrateur Principal",
+    "address": "admin@mail.hebertik.fr",
+    "role": "admin",
+    "createdAt": "2026-11-08T12:19:16.110Z",
+    "password": "HJGughfybched@@àbu9è'-9273!!"
+  },
+  {
+    "id": "test",
+    "name": "Test",
+    "address": "test@mail.hebertik.fr",
+    "role": "user",
+    "createdAt": "2026-11-08T19:28:00.000Z",
+    "password": "UGHiusdyjk@cnn8674788!"
+  },
+  {
+    "id": "account-discord",
+    "name": "Compte Discord & Jeux",
+    "address": "discord@mail.hebertik.fr",
+    "role": "user",
+    "createdAt": "2026-11-08T12:19:16.110Z",
+    "password": "T=U)u5K2W-Hvv9@N"
+  },
+  {
+    "id": "e9868018-9082-45aa-9435-1ee1625cd80e",
+    "name": "Wild Otter #385",
+    "address": "wild-otter-385@mail.hebertik.fr",
+    "role": "user",
+    "createdAt": "2026-11-08T12:26:37.308Z",
+    "password": "Kfd_9=7AbsUj$*Jv"
+  },
+  {
+    "id": "a56a07dc-e237-4327-a49b-75c5d33abbe6",
+    "name": "Swift Eagle #722",
+    "address": "swift-eagle-722@mail.hebertik.fr",
+    "password": "5knhp4n7aUtHd=q)",
+    "role": "user",
+    "createdAt": "2026-11-08T13:15:00.467Z"
+  },
+  {
+    "id": "5544c337-6ec9-45c1-8dcb-f90caee09b90",
+    "name": "Vortex Falcon #402",
+    "address": "vortex-falcon-402@mail.hebertik.fr",
+    "password": "H%yhhwrg2h$)KBb4",
+    "role": "user",
+    "createdAt": "2026-11-08T19:41:43.877Z"
+  },
+  {
+    "id": "d3adcd8f-7dcf-459d-bb44-68cb6a1ced58",
+    "name": "Quick Eagle #869",
+    "address": "quick-eagle-869@mail.hebertik.fr",
+    "password": "B^3o68KCx2=+G6z&",
+    "role": "user",
+    "createdAt": "2026-11-08T19:41:45.291Z"
+  },
+  {
+    "id": "4df642c8-9529-41fa-afd5-03c18ba50488",
+    "name": "Dark Otter #649",
+    "address": "dark-otter-649@mail.hebertik.fr",
+    "password": "^AeQ+-3e*L6Fj#3q",
+    "role": "user",
+    "createdAt": "2026-11-08T19:41:45.877Z"
+  },
+  {
+    "id": "0ac45a9d-9c7b-4f25-84bf-5f8ad623ec71",
+    "name": "Neon Fox #920",
+    "address": "neon-fox-920@mail.hebertik.fr",
+    "password": "@8=BR)8AsCSu6Fbb",
+    "role": "user",
+    "createdAt": "2026-11-08T19:41:46.341Z"
+  },
+  {
+    "id": "9b13f5e8-f0a7-4d2f-b8e4-81f50278c28c",
+    "name": "Frost Bear #710",
+    "address": "frost-bear-710@mail.hebertik.fr",
+    "password": "sxPKuh25ib@TX^Ji",
+    "role": "user",
+    "createdAt": "2026-11-08T19:41:47.409Z"
+  },
+  {
+    "id": "e9d38d20-3da3-4cae-a74c-9f2d82e9a62a",
+    "name": "Dark Panda #274",
+    "address": "dark-panda-274@mail.hebertik.fr",
+    "password": "wX+)(b&dLHDT5a8*",
+    "role": "user",
+    "createdAt": "2026-11-08T19:41:47.749Z"
+  },
+  {
+    "id": "d58f1a8e-4f35-448e-982b-126532350ef5",
+    "name": "Solar Eagle #949",
+    "address": "solar-eagle-949@mail.hebertik.fr",
+    "password": "J6YGVri69Pn-eB--",
+    "role": "user",
+    "createdAt": "2026-11-08T19:41:47.904Z"
+  },
+  {
+    "id": "d38f182d-95d6-4ce2-9caf-231cd8985d36",
+    "name": "Iron Tiger #565",
+    "address": "iron-tiger-565@mail.hebertik.fr",
+    "password": "ZMt5V(AEq)gCT_7_",
+    "role": "user",
+    "createdAt": "2026-11-08T19:41:48.054Z"
+  },
+  {
+    "id": "31654996-e394-4b55-9ee0-e992f005c842",
+    "name": "Iron Hawk #461",
+    "address": "iron-hawk-461@mail.hebertik.fr",
+    "password": "$Z8a$8vL2Sp+)HFN",
+    "role": "user",
+    "createdAt": "2026-11-08T19:41:48.198Z"
+  },
+  {
+    "id": "8dc35ce2-fb21-4de4-922a-551439c6a755",
+    "name": "Solar Eagle #736",
+    "address": "solar-eagle-736@mail.hebertik.fr",
+    "password": "^f8MiP$UV2UWR$6!",
+    "role": "user",
+    "createdAt": "2026-11-08T19:41:48.341Z"
+  },
+  {
+    "id": "9c7e8f99-fbe8-4fb5-8a94-eb5f0b2aff47",
+    "name": "Cyber Wolf #590",
+    "address": "cyber-wolf-590@mail.hebertik.fr",
+    "password": "SofAe=Z!ke4XgmT6",
+    "role": "user",
+    "createdAt": "2026-11-08T19:41:48.468Z"
+  },
+  {
+    "id": "ab63f539-78c5-451a-ac63-36a3eeabedb0",
+    "name": "Dark Fox #406",
+    "address": "dark-fox-406@mail.hebertik.fr",
+    "password": "#%!DrB6P4Th3)@hV",
+    "role": "user",
+    "createdAt": "2026-11-08T19:41:48.607Z"
+  },
+  {
+    "id": "252f66a0-25ac-41d2-b52a-e37d2977f814",
+    "name": "Hyper Viper #169",
+    "address": "hyper-viper-169@mail.hebertik.fr",
+    "password": "n&oX6f=8oeXtfRR6",
+    "role": "user",
+    "createdAt": "2026-11-08T19:41:48.753Z"
+  },
+  {
+    "id": "fdeb81d3-fe49-4603-94a7-0dd991b8b765",
+    "name": "Frost Wolf #286",
+    "address": "frost-wolf-286@mail.hebertik.fr",
+    "password": "=fFdWmvz8&v9YLLP",
+    "role": "user",
+    "createdAt": "2026-11-08T19:41:48.894Z"
+  },
+  {
+    "id": "e5e2b898-4dd1-459d-8fa0-197f8d5b6a9c",
+    "name": "Shadow Hawk #465",
+    "address": "shadow-hawk-465@mail.hebertik.fr",
+    "password": "ELeUbcq26%-b2L&Z",
+    "role": "user",
+    "createdAt": "2026-11-08T19:41:49.146Z"
+  },
+  {
+    "id": "be578f2e-9f78-49b6-b6e0-30c9492eb2ae",
+    "name": "Frost Panda #697",
+    "address": "frost-panda-697@mail.hebertik.fr",
+    "password": "VD(sPD2_dzt=W+@T",
+    "role": "user",
+    "createdAt": "2026-11-08T19:41:49.262Z"
+  },
+  {
+    "id": "e5395b75-f64c-4f41-8367-ea163acf6830",
+    "name": "Iron Fox #605",
+    "address": "iron-fox-605@mail.hebertik.fr",
+    "password": "H@b^wNYmn2NU5jAA",
+    "role": "user",
+    "createdAt": "2026-11-08T22:25:05.430Z"
+  },
+  {
+    "id": "e19ef694-d9d8-4e5c-a300-e1f0040ca821",
+    "name": "Dark Tiger #116",
+    "address": "dark-tiger-116@mail.hebertik.fr",
+    "password": "!yfxM9fiui2&kP8j",
+    "role": "user",
+    "createdAt": "2026-11-08T22:57:23.591Z"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "CatchMail Companion",
+  "version": "1.0.0",
+  "description": "Générez des boîtes mails jetables et récupérez vos codes OTP en 1 clic.",
+  "permissions": ["activeTab", "clipboardWrite"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "CatchMail Companion"
+  },
+  "host_permissions": ["http://localhost:3000/*", "https://*.ngrok-free.dev/*", "https://*.ngrok-free.app/*"]
+}
+

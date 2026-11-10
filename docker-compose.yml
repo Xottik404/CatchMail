@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  catchmail-app:
+    build: .
+    container_name: catchmail-app
+    restart: always
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - RESEND_API_KEY=${RESEND_API_KEY}
+    volumes:
+      - ./data:/app/data
+
