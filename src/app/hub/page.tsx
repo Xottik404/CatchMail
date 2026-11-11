@@ -108,7 +108,7 @@ export default function HubPage() {
 
             {/* 2. RagyBot (Grande Box) */}
             <a
-              href="https://141.11.103.100.nip.io"
+              href="https://ragybot.com"
               target="_blank"
               rel="noreferrer"
               className="group block p-7 sm:p-8 rounded-2xl bg-zinc-900/40 hover:bg-zinc-900/80 border border-zinc-800/80 hover:border-zinc-700 transition-all duration-200"
@@ -126,7 +126,7 @@ export default function HubPage() {
                         RagyBot
                       </h3>
                       <span className="text-xs font-mono text-zinc-400 px-2.5 py-0.5 rounded-full bg-zinc-800 border border-zinc-700">
-                        Bot Discord
+                        ragybot.com
                       </span>
                     </div>
 
@@ -135,7 +135,7 @@ export default function HubPage() {
                     </p>
 
                     <div className="flex flex-wrap items-center gap-2 pt-1 text-xs font-mono text-zinc-500">
-                      <span className="px-2.5 py-0.5 rounded-md bg-zinc-950 border border-zinc-800">Discord API</span>
+                      <span className="px-2.5 py-0.5 rounded-md bg-zinc-950 border border-zinc-800">Discord Bot</span>
                       <span className="px-2.5 py-0.5 rounded-md bg-zinc-950 border border-zinc-800">Dashboard Web</span>
                     </div>
                   </div>
@@ -230,6 +230,15 @@ export default function HubPage() {
             className="hover:text-emerald-400 transition-colors"
           >
             Discord Noctambulia
+          </a>
+          <span>•</span>
+          <a
+            href="https://ragybot.com"
+            target="_blank"
+            rel="noreferrer"
+            className="hover:text-emerald-400 transition-colors"
+          >
+            RagyBot
           </a>
           <span>•</span>
           <a
