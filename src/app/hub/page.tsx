@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { Mail, Bot, ArrowRight, Github, ExternalLink, Terminal } from "lucide-react";
+import { Mail, Bot, ArrowRight, Github, ExternalLink, Terminal, ShoppingBag } from "lucide-react";
 
 // Official Discord SVG icon
 function DiscordIcon({ className = "h-4 w-4" }: { className?: string }) {
@@ -61,7 +61,7 @@ export default function HubPage() {
             <h2 className="text-xs font-bold uppercase tracking-wider text-zinc-500 font-mono">
               Services & Applications
             </h2>
-            <span className="text-xs font-mono text-zinc-600">2 projets actifs</span>
+            <span className="text-xs font-mono text-zinc-600">3 projets</span>
           </div>
 
           <div className="grid grid-cols-1 gap-4">
@@ -147,6 +147,52 @@ export default function HubPage() {
                 </div>
               </div>
             </a>
+
+            {/* 3. MyShop (Grande Box) */}
+            <a
+              href="https://shop.hebertik.fr"
+              target="_blank"
+              rel="noreferrer"
+              className="group block p-7 sm:p-8 rounded-2xl bg-zinc-900/40 hover:bg-zinc-900/80 border border-zinc-800/80 hover:border-zinc-700 transition-all duration-200"
+            >
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-6">
+                <div className="flex items-start gap-5">
+                  {/* Large Icon Box */}
+                  <div className="h-16 w-16 rounded-xl bg-zinc-900 text-zinc-300 border border-zinc-800 flex items-center justify-center shrink-0 group-hover:text-emerald-400 group-hover:border-emerald-500/40 transition-colors">
+                    <ShoppingBag className="h-7 w-7" />
+                  </div>
+
+                  <div className="space-y-2">
+                    <div className="flex flex-wrap items-center gap-2.5">
+                      <h3 className="text-xl font-bold text-white group-hover:text-emerald-400 transition-colors tracking-tight">
+                        MyShop
+                      </h3>
+                      <span className="text-xs font-mono text-zinc-400 px-2.5 py-0.5 rounded-full bg-zinc-800 border border-zinc-700">
+                        shop.hebertik.fr
+                      </span>
+                      <span className="text-[11px] font-mono text-amber-400/90 px-2 py-0.5 rounded-full bg-amber-950/40 border border-amber-800/40">
+                        Bientôt disponible
+                      </span>
+                    </div>
+
+                    <p className="text-sm text-zinc-400 leading-relaxed max-w-xl">
+                      Boutique officielle et plateforme e-commerce Hebertik. Services, abonnements et produits numériques.
+                    </p>
+
+                    <div className="flex flex-wrap items-center gap-2 pt-1 text-xs font-mono text-zinc-500">
+                      <span className="px-2.5 py-0.5 rounded-md bg-zinc-950 border border-zinc-800">E-Commerce</span>
+                      <span className="px-2.5 py-0.5 rounded-md bg-zinc-950 border border-zinc-800">Paiements Sécurisés</span>
+                      <span className="px-2.5 py-0.5 rounded-md bg-zinc-950 border border-zinc-800">En développement</span>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Action Arrow */}
+                <div className="self-end sm:self-center h-10 w-10 rounded-xl bg-zinc-800/60 border border-zinc-700/40 flex items-center justify-center shrink-0 group-hover:bg-emerald-500 group-hover:border-emerald-400 transition-all">
+                  <ArrowRight className="h-4 w-4 text-zinc-400 group-hover:text-black group-hover:translate-x-0.5 transition-all" />
+                </div>
+              </div>
+            </a>
           </div>
         </section>
 
@@ -184,6 +230,15 @@ export default function HubPage() {
             className="hover:text-emerald-400 transition-colors"
           >
             Discord Noctambulia
+          </a>
+          <span>•</span>
+          <a
+            href="https://shop.hebertik.fr"
+            target="_blank"
+            rel="noreferrer"
+            className="hover:text-emerald-400 transition-colors"
+          >
+            MyShop
           </a>
           <span>•</span>
           <a
